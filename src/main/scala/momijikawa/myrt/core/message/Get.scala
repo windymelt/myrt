@@ -1,5 +1,7 @@
 package momijikawa.myrt.core.message
 
-class Get {
+import momijikawa.myrt.core.model.ChunkKey
+
+case class Get(key: ChunkKey) {
 
 }

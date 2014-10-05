@@ -1,5 +1,5 @@
 package momijikawa.myrt.core.model
 
-class ChunkedData {
+case class ChunkedData(val data: Seq[Byte]) extends AnyVal {
 
 }

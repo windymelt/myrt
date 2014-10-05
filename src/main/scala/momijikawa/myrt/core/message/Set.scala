@@ -1,5 +1,7 @@
 package momijikawa.myrt.core.message
 
-class Set {
+import momijikawa.myrt.core.model.ChunkedData
+
+case class Set(value: ChunkedData) {
 
 }

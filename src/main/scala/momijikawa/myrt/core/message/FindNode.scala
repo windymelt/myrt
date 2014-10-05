@@ -1,5 +1,7 @@
 package momijikawa.myrt.core.message
 
-class FindNode {
+import momijikawa.myrt.model.NodeId
+
+case class FindNode(val query: NodeId) extends AnyVal {
 
 }

@@ -1,5 +1,5 @@
 package momijikawa.myrt.model
 
-class NodeAccessPoint {
+case class NodeAccessPoint(val accessPoint: String) extends AnyVal {
 
 }

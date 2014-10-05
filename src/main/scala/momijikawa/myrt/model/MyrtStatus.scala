@@ -1,5 +1,5 @@
 package momijikawa.myrt.model
 
-class MyrtStatus {
+case class MyrtStatus(id: IdAccessPointPair, successors: NodePairList, fingers: NodePairList, predecessor: Option[IdAccessPointPair], data: MyrtDataStore) {
 
 }

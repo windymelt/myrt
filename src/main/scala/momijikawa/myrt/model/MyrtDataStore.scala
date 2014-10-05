@@ -1,5 +1,7 @@
 package momijikawa.myrt.model
 
-class MyrtDataStore {
+import momijikawa.myrt.core.model.{ChunkedData, ChunkKey}
+
+class MyrtDataStore(val stock: Map[ChunkKey, ChunkedData]) {
 
 }

@@ -1,5 +1,5 @@
 package momijikawa.myrt.core.message
 
-class YourPredecessor {
+case object YourPredecessor {
 
 }

@@ -1,5 +1,7 @@
 package momijikawa.myrt.core.message
 
-class PredCheck {
+import momijikawa.myrt.model.IdAccessPointPair
+
+case class PredCheck(request: IdAccessPointPair) {
 
 }

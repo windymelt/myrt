@@ -1,5 +1,5 @@
 package momijikawa.myrt.model
 
-class NodePairList {
-
+case class NodePairList(list: Seq[IdAccessPointPair]) {
+  def head = list.headOption
 }

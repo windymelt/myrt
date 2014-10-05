@@ -1,5 +1,5 @@
 package momijikawa.myrt.core.model
 
-class ChunkKey {
+case class ChunkKey(val key: Seq[Byte]) extends AnyVal{
 
 }

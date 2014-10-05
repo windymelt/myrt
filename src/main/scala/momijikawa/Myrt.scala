@@ -1,6 +1,6 @@
 package momijikawa
 
-import momijikawa.myrt.model.{ComposedData, KvsKey, NodeId}
+import momijikawa.myrt.model.{MyrtStatus, ComposedData, KvsKey, NodeId}
 import momijikawa.myrt.util.Sha1._
 
 import scala.concurrent.ExecutionContext.Implicits.global
@@ -9,6 +9,7 @@ import scalaz.Scalaz._
 import scalaz._
 
 class Myrt {
+  val status = MyrtStatus(???, ???, ???, ???, ???)
   def init(id: NodeId) = {
     // do nothing
   }

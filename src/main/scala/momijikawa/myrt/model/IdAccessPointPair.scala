@@ -1,5 +1,5 @@
 package momijikawa.myrt.model
 
-class IdAccessPointPair {
+case class IdAccessPointPair(id: NodeId, accessPoint: NodeAccessPoint) {
 
 }
