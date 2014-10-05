@@ -1,7 +1,7 @@
 package momijikawa.myrt
 
 import momijikawa.Myrt
-import momijikawa.myrt.model.{ComposedData, KvsKey, NodeId}
+import momijikawa.myrt.model.{ ComposedData, KvsKey, NodeId }
 import momijikawa.myrt.util.Base64._
 import org.specs2.mutable._
 
