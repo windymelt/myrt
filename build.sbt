@@ -22,6 +22,7 @@ libraryDependencies ++= Seq(
   "org.specs2" %% "specs2" % "1.13" % "test",
   "com.typesafe.akka" %% "akka-actor" % "2.2.4",
   "com.typesafe.akka" %% "akka-agent" % "2.2.4",
+  "com.typesafe.akka" %% "akka-testkit" % "2.2.4",
   "commons-codec" % "commons-codec" % "1.9",
   "org.scalaz" %% "scalaz-core" % "7.0.0",
   "org.scalaz" %% "scalaz-effect" % "7.0.0",
